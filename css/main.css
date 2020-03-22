@@ -1,3 +1,162 @@
 * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-weight: 400;
   font-family: "Fira Code", monospace;
+}
+a i {
+  color: #ecd009;
+  font-size: 18px !important;
+}
+h1,
+h2,
+h3 {
+  font-weight: 900;
+}
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+.btn {
+  border-radius: 0% !important;
+  box-shadow: none !important;
+}
+////buttons
+
+.btn-primary {
+  background-color: #020100 !important;
+  border-color: #020100 !important;
+}
+.btn-primary:hover {
+  background-color: transparent !important;
+  color: #020100 !important;
+}
+.btn-outline-secondary {
+  color: #fefefe !important;
+  border-color: #fefefe !important;
+}
+.btn-outline-secondary:hover {
+  background-color: #fefefe !important;
+  color: #020100 !important;
+}
+
+///heading
+.section-heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section-heading::first-letter {
+  color: #ecd009 !important;
+}
+//// navbar
+.navbar {
+  opacity: 1;
+}
+.navbar-brand {
+  font-size: 2rem;
+}
+.nav-link,
+.nav-brand {
+  color: #020100 !important;
+}
+.nav-link:hover {
+  color: #777 !important;
+}
+.navbar .btn-primary {
+  color: #fefefe !important;
+}
+.navbar .btn-primary:hover {
+  color: #020100 !important;
+  background-color: transparent !important;
+}
+//// home
+
+.home {
+  min-height: 660px;
+  overflow: hidden;
+  background-image: url("../img/main-5.jpg");
+  background-position: bottom;
+  background-size: cover;
+}
+.card {
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+//// call to action
+
+.call-to-action {
+  background-color: black !important;
+  color: #fefefe !important;
+}
+//// gallery
+.price-tag {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #020100;
+  color: #fefefe;
+  padding: 20px;
+}
+.price {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.dollar {
+  font-size: 1.4rem;
+}
+.gallery {
+  column-count: 3;
+  column-width: 33%;
+}
+.gallery .pics {
+  position: relative;
+  overflow: hidden !important;
+}
+.gallery .pics img:hover {
+  transform: scale(1.3);
+}
+///testimonial
+.testimonial-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.testimonial {
+  background-color: #020100;
+  color: #fefefe;
+}
+//// contact form
+textarea,
+select {
+  border-radius: 0 !important;
+  padding: 30px 10px !important;
+  border: none;
+  border-bottom: 1px solid #020100 !important;
+  color: #020100 !important;
+}
+///footer
+.footer {
+  background-color: #020100;
+  color: #fefefe !important;
+}
+.footer a {
+  color: #fefefe !important;
+}
+.footer .navbar-brand {
+  color: #fefefe !important;
+}
+.footer h4 {
+  margin-top: 10px;
 }

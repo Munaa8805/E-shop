@@ -169,3 +169,26 @@ select {
 .footer h4 {
   margin-top: 10px;
 }
+//// Responsive design
+@media (max-width: 900px) {
+  .navbar .nav-item {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+  }
+  .navbar .nav {
+    background-color: #fefefe;
+  }
+  .call-to-action,
+  .text-right {
+    text-align: center;
+  }
+
+  @media (max-width: 500px) {
+    .gallery {
+      column-count: 1;
+      column-width: 100%;
+    }
+  }
+}

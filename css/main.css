@@ -45,7 +45,11 @@ h6 {
 }
 
 ///heading
-.section-heading {
+// .section-heading {
+//   text-align: center;
+//   margin-bottom: 50px;
+// }
+#sectionHeading {
   text-align: center;
   margin-bottom: 50px;
 }
@@ -58,9 +62,9 @@ h6 {
 }
 .navbar-brand {
   font-size: 2rem;
+  color: #020100 !important;
 }
-.nav-link,
-.nav-brand {
+.nav-link {
   color: #020100 !important;
 }
 .nav-link:hover {
@@ -78,7 +82,7 @@ h6 {
 .home {
   min-height: 660px;
   overflow: hidden;
-  background-image: url("../img/main-5.jpg");
+  background-image: url("/img/main-5.jpg");
   background-position: bottom;
   background-size: cover;
 }
@@ -95,9 +99,14 @@ h6 {
 }
 //// call to action
 
-.call-to-action {
-  background-color: black !important;
+#callMenu {
   color: #fefefe !important;
+}
+#saihan {
+  background-color: black;
+  color: #fefefe;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 //// gallery
 .price-tag {
